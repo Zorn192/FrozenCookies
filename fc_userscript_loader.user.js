@@ -1,18 +1,17 @@
 // ==UserScript==
-// @name           Frozen Cookies
-// @version        github-latest
+// @name           Frozen Cookies Z
+// @version        github-zorn192
 // @description    Userscript to load Frozen Cookies written by Icehawk78, forked by Lordshinjo
 // @author         Lordshinjo
-// @homepage       https://github.com/Lordshinjo/FrozenCookies
+// @homepage       https://github.com/Zorn192/FrozenCookies
 // @include        http://orteil.dashnet.org/cookieclicker/
-// @updateURL      https://rawgit.com/Lordshinjo/FrozenCookies/master/fc_userscript_loader.js
-// @downloadURL    https://rawgit.com/Lordshinjo/FrozenCookies/master/fc_userscript_loader.js
+// @updateURL      http://zorn192.github.io/FrozenCookies/fc_userscript_loader.user.js
+// @downloadURL    http://zorn192.github.io/FrozenCookies/fc_userscript_loader.user.js
 // @run-at         document-start
 // ==/UserScript==
 
-// Dev:       https://github.com/Lordshinjo/FrozenCookies/development/
-// Master:    https://github.com/Lordshinjo/FrozenCookies/master/
-// Github.io: http://lordshinjo.github.io/FrozenCookies/
+// Master:    http://zorn192.github.io/FrozenCookies/fc_userscript_loader.user.js
+
 
 function LoadFrozenCookies() {
     Game.LoadMod('https://rawgit.com/Chevron42/FrozenCookies/master/frozen_cookies.js');
